@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="VaniSudharak.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="text-align: center; background-color: #006666">
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="235px" ImageUrl="~/Pics/VaniWhiteLogoo.png" PostBackUrl="~/Front.aspx" Width="235px" />
+            <br />
+            </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+        </div><div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+              </div>
+        <div style="background-color: #006666">
+            <br /><br />
+            
+        </div>
+    </form>
+</body>
+</html>

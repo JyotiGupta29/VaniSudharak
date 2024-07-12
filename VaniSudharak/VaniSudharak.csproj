@@ -1,0 +1,432 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D6554A2-E846-432B-A634-415F77D0E592}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VaniSudharak</RootNamespace>
+    <AssemblyName>VaniSudharak</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44301</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Activity1-0.aspx" />
+    <Content Include="Activity1-1.aspx" />
+    <Content Include="Activity1-2.aspx" />
+    <Content Include="Activity1-3.aspx" />
+    <Content Include="Activity1-4.aspx" />
+    <Content Include="Activity1-5.aspx" />
+    <Content Include="ActivityPics\1petal.png" />
+    <Content Include="ActivityPics\2petal.png" />
+    <Content Include="ActivityPics\3petal.png" />
+    <Content Include="ActivityPics\4petal.png" />
+    <Content Include="ActivityPics\damru.png" />
+    <Content Include="ActivityPics\dhokla.png" />
+    <Content Include="ActivityPics\finalFlower.gif" />
+    <Content Include="ActivityPics\fullflower.png" />
+    <Content Include="ActivityPics\NoPetal.png" />
+    <Content Include="ActivityPics\thela.png" />
+    <Content Include="ActivityPics\tomato.png" />
+    <Content Include="ActivityPics\watermelon.png" />
+    <Content Include="AdminHome.aspx" />
+    <Content Include="Audio\kruh1S.mp3" />
+    <Content Include="Audio\kruh1S.wav" />
+    <Content Include="Game01-1.aspx" />
+    <Content Include="Game01-2.aspx" />
+    <Content Include="Game01.aspx" />
+    <Content Include="Game1.aspx" />
+    <Content Include="Gamee.aspx" />
+    <Content Include="Hi.aspx" />
+    <Content Include="Kruh1.aspx" />
+    <Content Include="Kruh2.aspx" />
+    <Content Include="KruhActivity1.aspx" />
+    <Content Include="Last.aspx" />
+    <Content Include="pg1.aspx" />
+    <Content Include="Pics\1vid.mp4" />
+    <Content Include="Pics\Act1Mush.mp4" />
+    <Content Include="Pics\end.gif" />
+    <Content Include="Pics\GameMush.mp4" />
+    <Content Include="Pics\kid1.jpg" />
+    <Content Include="Pics\kid2.jpg" />
+    <Content Include="Pics\kiddo.jpg" />
+    <Content Include="Pics\kriya1.png" />
+    <Content Include="Pics\kriya2.png" />
+    <Content Include="Pics\taran %281%29.png" />
+    <Content Include="Pics\taran %284%29.png" />
+    <Content Include="Pics\taran%282%29.png" />
+    <Content Include="Pics\taran%283%29.png" />
+    <Content Include="Pics\taran-1.png" />
+    <Content Include="Pics\taran-2.png" />
+    <Content Include="Pics\taran.png" />
+    <Content Include="Pics\TestMush.mp4" />
+    <Content Include="Pics\v1.png" />
+    <Content Include="Pics\v2.png" />
+    <Content Include="Pics\vid1.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Pics\c1.png" />
+    <Content Include="Pics\c2.png" />
+    <Content Include="Pics\c3.png" />
+    <Content Include="Pics\kiddo1.jpg" />
+    <Content Include="Pics\VaniIntro.gif" />
+    <Content Include="Pics\VaniWhiteLogoo.png" />
+    <Content Include="Registration.aspx" />
+    <Content Include="Test1.aspx" />
+    <Content Include="Test2.aspx" />
+    <Content Include="TestHome.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Front.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activity1-0.aspx.cs">
+      <DependentUpon>Activity1-0.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activity1-0.aspx.designer.cs">
+      <DependentUpon>Activity1-0.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activity1-1.aspx.cs">
+      <DependentUpon>Activity1-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activity1-1.aspx.designer.cs">
+      <DependentUpon>Activity1-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activity1-2.aspx.cs">
+      <DependentUpon>Activity1-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activity1-2.aspx.designer.cs">
+      <DependentUpon>Activity1-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activity1-3.aspx.cs">
+      <DependentUpon>Activity1-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activity1-3.aspx.designer.cs">
+      <DependentUpon>Activity1-3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activity1-4.aspx.cs">
+      <DependentUpon>Activity1-4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activity1-4.aspx.designer.cs">
+      <DependentUpon>Activity1-4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Activity1-5.aspx.cs">
+      <DependentUpon>Activity1-5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activity1-5.aspx.designer.cs">
+      <DependentUpon>Activity1-5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game01-1.aspx.cs">
+      <DependentUpon>Game01-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game01-1.aspx.designer.cs">
+      <DependentUpon>Game01-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game01-2.aspx.cs">
+      <DependentUpon>Game01-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game01-2.aspx.designer.cs">
+      <DependentUpon>Game01-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game01.aspx.cs">
+      <DependentUpon>Game01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game01.aspx.designer.cs">
+      <DependentUpon>Game01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game1.aspx.cs">
+      <DependentUpon>Game1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Game1.aspx.designer.cs">
+      <DependentUpon>Game1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gamee.aspx.cs">
+      <DependentUpon>Gamee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gamee.aspx.designer.cs">
+      <DependentUpon>Gamee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hi.aspx.cs">
+      <DependentUpon>Hi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hi.aspx.designer.cs">
+      <DependentUpon>Hi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kruh1.aspx.cs">
+      <DependentUpon>Kruh1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kruh1.aspx.designer.cs">
+      <DependentUpon>Kruh1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kruh2.aspx.cs">
+      <DependentUpon>Kruh2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kruh2.aspx.designer.cs">
+      <DependentUpon>Kruh2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KruhActivity1.aspx.cs">
+      <DependentUpon>KruhActivity1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KruhActivity1.aspx.designer.cs">
+      <DependentUpon>KruhActivity1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Last.aspx.cs">
+      <DependentUpon>Last.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Last.aspx.designer.cs">
+      <DependentUpon>Last.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pg1.aspx.cs">
+      <DependentUpon>pg1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pg1.aspx.designer.cs">
+      <DependentUpon>pg1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pics\vid1.aspx.cs">
+      <DependentUpon>vid1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pics\vid1.aspx.designer.cs">
+      <DependentUpon>vid1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Front.aspx.cs">
+      <DependentUpon>Front.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front.aspx.designer.cs">
+      <DependentUpon>Front.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test1.aspx.cs">
+      <DependentUpon>Test1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test1.aspx.designer.cs">
+      <DependentUpon>Test1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test2.aspx.cs">
+      <DependentUpon>Test2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test2.aspx.designer.cs">
+      <DependentUpon>Test2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestHome.aspx.cs">
+      <DependentUpon>TestHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestHome.aspx.designer.cs">
+      <DependentUpon>TestHome.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMLSS">
+      <Guid>{C21E9CE5-B317-463B-A1B1-B5E36EED59D0}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPDXMLib">
+      <Guid>{73F0DD5C-D071-46B6-A8BF-897C84EAAC49}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLauncher">
+      <Guid>{5CB42160-CD7C-4806-9367-1C4A65153F4A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65244</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44301/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
